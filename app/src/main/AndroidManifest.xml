@@ -10,9 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.example.todoappfinal.addedittask.AddEditTaskActivity"
-            android:label="Add a new Task"></activity>
+            android:label="Task Properties"></activity>
 
-        <activity android:name="com.example.todoappfinal.tasks.MainActivity">
+        <activity android:name="com.example.todoappfinal.tasks.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
